@@ -1,0 +1,49 @@
+/* --- General --- */ 
+main {
+    padding: 20px 0;
+  }
+  
+  section {
+    margin-bottom: 100px;
+  }
+  
+  h1 {
+    margin: 0 0 30px 10px;
+  }
+  
+  h2 {
+    margin: 0 10px;
+  }
+  
+  h3 {
+    margin: 12px 0;
+  }
+  /* --- FlexBox --- */
+  .group {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item {
+    flex: 1;
+  margin: 10px;
+}
+.item-double {
+    flex: 2;
+}
+
+.bg-callout {   
+    background-color: lightgray;
+ }
+
+main img {
+    width: 100%;   
+   }
+
+@media all and (min-width: 800px) {  
+    .group {
+      flex-direction: row;
+    }
+  }
+
