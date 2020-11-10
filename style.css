@@ -38,9 +38,18 @@ main {
   header nav ul li a{
     text-decoration: none;
     margin: 0 20px 0 0;
+    color: black;
   }
   header nav ul li:last-child a{
     margin-right: 0;
+  }
+  main section div a{
+    text-decoration: none;
+    color: black;
+  }
+
+  main section div a:hover{
+    color: magenta;
   }
 
   .group {
@@ -58,7 +67,7 @@ main {
 }
 
 .bg-callout {   
-    background-color: lightgray;
+    background-color: lavender;
  }
 
 main img {
