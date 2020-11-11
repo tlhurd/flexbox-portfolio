@@ -1,6 +1,7 @@
 /* --- General --- */ 
 body{
   margin: 0;
+  background-color: #ffffff
 }
 main {
     padding: 20px 0;
@@ -52,6 +53,17 @@ main {
     color: magenta;
   }
 
+  main section div ul li{
+    text-decoration: none;
+    list-style: none;
+  }
+
+  main section div ul li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+  }
+
   .group {
     display: flex;
   flex-direction: column;
@@ -67,7 +79,7 @@ main {
 }
 
 .bg-callout {   
-    background-color: lavender;
+    background-color: #03dac6;
  }
 
 main img {
